@@ -1,0 +1,16 @@
+public class test {
+
+    public void xing(int x)
+    {
+        int i=1;
+        while(x>=1){
+        i*=x;
+        x--;
+        }
+        System.out.println("end="+i);
+    }
+    public static void main(String[]args){
+        test mytest=new test();
+        mytest.xing(6);
+    }
+}
